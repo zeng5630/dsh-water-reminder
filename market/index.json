@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Zeng's DSH Plugins",
+    "zh": "Zeng 的 DSH 插件"
+  },
+  "description": {
+    "en": "A small collection of DeepSeek Harness Web plugins by zeng5630.",
+    "zh": "zeng5630 的 DeepSeek Harness Web 插件集合。"
+  },
+  "metadata": {
+    "categories": {
+      "productivity": {
+        "title": {
+          "en": "Productivity",
+          "zh": "效率"
+        }
+      }
+    },
+    "labels": {
+      "health": {
+        "title": {
+          "en": "Health",
+          "zh": "健康"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-water-reminder",
+      "title": {
+        "en": "Water Reminder",
+        "zh": "喝水提醒"
+      },
+      "description": {
+        "en": "Interval hydration reminders with a floating water ball, in-page toasts, and system notifications.",
+        "zh": "间隔提醒喝水：右下角悬浮水滴球、页面卡片与系统通知，附带今日饮水统计。"
+      },
+      "icon": "https://raw.githubusercontent.com/zeng5630/dsh-water-reminder/main/icon.svg",
+      "author": "zeng5630",
+      "homepage": "https://github.com/zeng5630/dsh-water-reminder",
+      "repository": {
+        "url": "https://github.com/zeng5630/dsh-water-reminder"
+      },
+      "metadata": {
+        "category": "productivity",
+        "keywords": [
+          "water",
+          "hydration",
+          "reminder",
+          "health",
+          "喝水"
+        ],
+        "labels": [
+          "health"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793932013,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/zeng5630/dsh-water-reminder",
+            "commit": "e6ca334de455ab7b356d25c495ccc58bb76c7806"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1"
+          }
+        }
+      ]
+    }
+  ]
+}
