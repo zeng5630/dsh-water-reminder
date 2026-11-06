@@ -1,0 +1,5 @@
+# dsh-water-reminder bundle layer: inserting this row mounts the same package's
+# host no-op entry and its browser half (declared by dsh.client in package.json).
+- insert:
+    - id: ui-water-reminder
+      name: 'dsh-water-reminder'
